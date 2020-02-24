@@ -12,7 +12,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/LogosManager/dist/favicon.ico' }/* href: '/favicon.ico' */
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }/* href: '/LogosManager/dist/favicon.ico' */
     ]
   },
   /*
@@ -60,7 +60,7 @@ export default {
     }
   },
   router: {
-    base: '/LogosManager/dist/'
+    base: '/'
   } /* 本番はbase: '/' */
 
 }
